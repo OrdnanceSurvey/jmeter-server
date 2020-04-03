@@ -12,7 +12,7 @@
 # TODO - Currently exposed ports are hard-coded to use values that are in the jmeter.properties.
 #        It would be nice to be able to parameterize the port numbers.
 #
-FROM ordnancesurvey/jmeter-base:v2.0
+FROM ordnancesurvey/jmeter-base:v3.0
 MAINTAINER mark.meany@os.uk
 
 ADD jmeter.properties /var/lib/apache-jmeter-$JMETER_VERSION/bin/
